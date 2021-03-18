@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\DutchText.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Data\DutchText.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Fingerprinting.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
