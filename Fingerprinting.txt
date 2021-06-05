@@ -4,16 +4,11 @@ Een tekst die iemand schrijft kan ontleed worden op het soort woorden
 en de aantallen van elk woord die de schrijver gebruikt heeft bij het
 maken van een brief, opstel, verslag, artikel.....
 
-De frekwentie van het voorkomen van de woorden blijkt hierbij vaak van
-mens tot mens te verschillen, meer nog een kenmerk van de persoon te
-zijn. Deze eigenschap wordt dan ook gebruikt om te kunnen achterhalen
-wie de schrijver van een tekst kan zijn of niet zijn.
+Dit ontleden is vaak erg lastig: we kunnen namelijk woorden splitsen 
+met een kop-pel-te-ken en ook de apostrof is 's werelds lastigste leesteken
+als het aankomt op het tellen van woorden door een computer-programma!
 
-Een gewone tekst is een iteratie van woorden, nu en dan afgewisseld door
-leestekens   (punten,   komma's,......)   en   opmaaktekens   (tabulaties,
-insprongen, blanco lijnen...).
-
-Van   uit   een   tekst   dient   een   lijst   opgesteld   te   worden   waarbij   alle
-woorden, zonder andere tekens, opgesteld worden, één letter per lijn.
-
-Maak hiervoor het Jackson-diagram.
+Gelukkig zijn computers geen baby's en kunnen wij ze gaan programmeren
+om diverse app's zeer precies te gaan uitvoeren. Op opa's huis na zitten 
+computers overal. Zelfs een priester-dichter maakt tegenwoordig zijn 
+kosten-batenanalyse met een computer bij voorkeur 's avonds. 

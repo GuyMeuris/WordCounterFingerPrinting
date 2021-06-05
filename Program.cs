@@ -8,9 +8,8 @@ namespace WordCounter
 {
     public class Program
     {
-        /* Deze applicatie is gemaakt door Guy Meuris op 1/03/2021 in het kader van een 
-         * oefening op het gebruik van 'dictionaries' en telt het aantal woorden in een 
-         * specifieke tekst 'Fingerprinting' en geeft deze weer in een rangschikking.
+        /* Deze applicatie is gemaakt door Guy Meuris op 1/03/2021 en telt het aantal 
+         * woorden in een specifieke tekst 'Fingerprinting' en geeft deze weer in een rangschikking.
          * (Van meest voorkomend tot minder)
           */
         private static void Main()
@@ -19,10 +18,10 @@ namespace WordCounter
             var path = Path.Combine( System.AppDomain.CurrentDomain.BaseDirectory, "Fingerprinting.txt" );
 
             // Tekstbestand inlezen
-            var text = File.ReadAllText( path ).ToLower();
+            var text = File.ReadAllText(path).ToLower();
 
             // Controleren of het 'woord' enkel uit letters en/of cijfers bestaat en niets anders 
-            var match = Regex.Match( text, "\\w+" );
+            var match = Regex.Match( text, "'?([a-zA-z'-]+)'?");
 
             // Combinatie 'woord' en 'aantal maal in tekst' gaan we opslaan in een dictionary,
             // dus deze moeten we eerst aanmaken
